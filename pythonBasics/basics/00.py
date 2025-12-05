@@ -1,0 +1,1 @@
+print("Hello World!") #python nazwa_pliku.py aby uruchomić program w cmd (wcześniej cd ŚCIEŻKA/DO/PLIKU)
