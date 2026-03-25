@@ -15,10 +15,8 @@ class DirectoryViewer(wx.Frame):
 
     def initUI(self):
         self.fileListCtrl = wx.TextCtrl(self.panel, 
-                                        style=wx.TE_MULTILINE | wx.TE_READONLY | wx.HSCROLL)
+            style=wx.TE_MULTILINE | wx.TE_READONLY | wx.HSCROLL)
         
-        # Utworzenie sizer'a, który pozwala na rozciągnięcie kontrolki TextCtrl 
-        # na całe okno.
         sizer = wx.BoxSizer(wx.VERTICAL)
         sizer.Add(self.fileListCtrl, 1, wx.EXPAND | wx.ALL, 5)
         self.panel.SetSizerAndFit(sizer)
